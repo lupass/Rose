@@ -23,7 +23,6 @@ body {
     justify-content: center;
 
     font-family: "Inter", sans-serif;
-
     color: var(--text-primary);
 
     background:
@@ -40,115 +39,83 @@ body {
 
 
 /* =========================================================
-   THEME — RED
+   THEME
    ========================================================= */
 
 :root {
-    /* -----------------------------------------------------
-       Rose scale
-       ----------------------------------------------------- */
+    --rose-100: #ffe600;
+    --rose-90: #d4bd00;
+    --rose-80: #b8a400;
+    --rose-70: #9b8a00;
+    --rose-60: #807200;
+    --rose-50: #665b00;
+    --rose-40: #4d4400;
+    --rose-30: #393200;
+    --rose-20: #282300;
+    --rose-10: #100e00;
 
-    --rose-100: #ff0044;
-    --rose-90: #bf0028;
-    --rose-80: #ad0022;
-    --rose-70: #9a001d;
-    --rose-60: #850018;
-    --rose-50: #6d0012;
-    --rose-40: #52000c;
-    --rose-30: #3d0008;
-    --rose-20: #2b0005;
-    --rose-10: #100001;
+    --rose-glow: rgba(190, 170, 0, 0.18);
+    --rose-glow-inner: rgba(220, 205, 40, 0.15);
 
-    /* -----------------------------------------------------
-       Glow
-       ----------------------------------------------------- */
+    --rose-light: rgba(255, 230, 30, 0.10);
+    --rose-light-soft: rgba(255, 220, 30, 0.06);
+    --rose-light-strong: rgba(255, 235, 90, 0.30);
 
-    --rose-glow: rgba(160, 5, 30, 0.18);
-    --rose-glow-inner: rgba(180, 40, 60, 0.15);
-
-    --rose-light: rgba(255, 30, 60, 0.10);
-    --rose-light-soft: rgba(255, 30, 80, 0.06);
-    --rose-light-strong: rgba(255, 50, 90, 0.30);
-
-    /* -----------------------------------------------------
-       UI
-       ----------------------------------------------------- */
-
-    --accent-1: #ff0044;
-    --accent-2: #ff2e5e;
-    --accent-3: #ff0044;
+    --accent-1: #ffe600;
+    --accent-2: #fff06a;
+    --accent-3: #ffe600;
     --accent-text: #ffffff;
 
-    --ui-border: rgba(255, 40, 100, 0.20);
-    --ui-glow: rgba(255, 30, 80, 0.10);
-    --ui-shadow: rgba(255, 0, 68, 0.30);
-
-    /* -----------------------------------------------------
-       Background
-       ----------------------------------------------------- */
+    --ui-border: rgba(255, 230, 40, 0.20);
+    --ui-glow: rgba(255, 220, 30, 0.10);
+    --ui-shadow: rgba(255, 230, 0, 0.30);
 
     --bg-dark: #020002;
-    --bg-mid: #050002;
-    --bg-glow: #120105;
+    --bg-mid: #050500;
+    --bg-glow: #121201;
     --overlay: rgba(0, 0, 0, 0.85);
-
-    /* -----------------------------------------------------
-       Text
-       ----------------------------------------------------- */
 
     --text-primary: #ffffff;
     --text-secondary: #b5a2b0;
-    --text-highlight: rgba(255, 195, 215, 0.95);
+    --text-highlight: rgba(255, 245, 180, 0.95);
 
-    /* -----------------------------------------------------
-       Button
-       ----------------------------------------------------- */
+    --button-hover-glow: rgba(255, 230, 0, 0.50);
+    --button-hover-soft: rgba(255, 235, 90, 0.30);
 
-    --button-hover-glow: rgba(255, 0, 68, 0.50);
-    --button-hover-soft: rgba(255, 50, 90, 0.30);
-
-    /* -----------------------------------------------------
-       Petal gradients
-       ----------------------------------------------------- */
-
-    --petal-bud-1: #3d0008;
-    --petal-bud-2: #220003;
-    --petal-bud-3: #100001;
+    --petal-bud-1: #393200;
+    --petal-bud-2: #242000;
+    --petal-bud-3: #100e00;
     --petal-bud-4: #040000;
 
-    --petal-core-1: #52000c;
-    --petal-core-2: #350005;
-    --petal-core-3: #1a0002;
-    --petal-core-4: #080000;
+    --petal-core-1: #4d4400;
+    --petal-core-2: #353000;
+    --petal-core-3: #1a1800;
+    --petal-core-4: #080700;
 
-    --petal-inner-1: #6d0012;
-    --petal-inner-2: #480008;
-    --petal-inner-3: #250003;
-    --petal-inner-4: #0c0000;
+    --petal-inner-1: #665b00;
+    --petal-inner-2: #484000;
+    --petal-inner-3: #252100;
+    --petal-inner-4: #0c0b00;
 
-    --petal-mid-inner-1: #850018;
-    --petal-mid-inner-2: #5c000d;
-    --petal-mid-inner-3: #310004;
-    --petal-mid-inner-4: #120000;
+    --petal-mid-inner-1: #807200;
+    --petal-mid-inner-2: #5c5100;
+    --petal-mid-inner-3: #312b00;
+    --petal-mid-inner-4: #121000;
 
-    --petal-mid-1: #9a001d;
-    --petal-mid-2: #6e0011;
-    --petal-mid-3: #3b0005;
-    --petal-mid-4: #160000;
+    --petal-mid-1: #9b8a00;
+    --petal-mid-2: #6e6200;
+    --petal-mid-3: #3b3400;
+    --petal-mid-4: #161300;
 
-    --petal-outer-1: #ad0022;
-    --petal-outer-2: #7e0014;
-    --petal-outer-3: #440007;
-    --petal-outer-4: #1a0001;
+    --petal-outer-1: #b8a400;
+    --petal-outer-2: #7e7000;
+    --petal-outer-3: #443c00;
+    --petal-outer-4: #1a1700;
 
-    --petal-blush-1: #bf0028;
-    --petal-blush-2: #8e0018;
-    --petal-blush-3: #4e0008;
-    --petal-blush-4: #1e0001;
-
-    /* -----------------------------------------------------
-       Responsive scale
-       ----------------------------------------------------- */
+    --petal-blush-1: #d4bd00;
+    --petal-blush-2: #8e7e00;
+    --petal-blush-3: #4e4500;
+    --petal-blush-4: #1e1a00;
 
     --rose-scale: 1;
 }
@@ -198,12 +165,12 @@ body {
             transparent 70%
         );
 
-    /*
-     * Reducido respecto al original.
-     * El blur grande es bastante costoso.
-     */
-    filter: blur(30px);
+    filter: blur(20px);
 
+    /*
+     * Aislamos el efecto para que no interfiera
+     * con la escena 3D.
+     */
     contain: strict;
 }
 
@@ -226,19 +193,18 @@ body {
     background: var(--overlay);
 
     /*
-     * El backdrop-filter es uno de los efectos más caros de esta
-     * página. Se mantiene para conservar el efecto glass, pero
-     * con un blur menor.
+     * Evitamos backdrop-filter durante la escena.
+     * Es uno de los mayores consumidores de GPU.
      */
-    backdrop-filter: blur(8px);
-    -webkit-backdrop-filter: blur(8px);
+    backdrop-filter: blur(6px);
+    -webkit-backdrop-filter: blur(6px);
 
     opacity: 1;
     visibility: visible;
 
     transition:
-        opacity 0.8s cubic-bezier(.25, 1, .5, 1),
-        visibility 0s linear 0.8s;
+        opacity .8s cubic-bezier(.25, 1, .5, 1),
+        visibility 0s linear .8s;
 }
 
 .trigger-overlay.fade-out {
@@ -247,8 +213,8 @@ body {
     pointer-events: none;
 
     transition:
-        opacity 0.8s cubic-bezier(.25, 1, .5, 1),
-        visibility 0s linear 0.8s;
+        opacity .8s cubic-bezier(.25, 1, .5, 1),
+        visibility 0s linear .8s;
 }
 
 
@@ -270,7 +236,7 @@ body {
 
     text-align: center;
 
-    background: rgba(22, 10, 15, 0.68);
+    background: rgba(22, 22, 10, .68);
 
     border: 1px solid var(--ui-border);
     border-radius: 24px;
@@ -279,14 +245,14 @@ body {
         0 20px 45px rgba(0, 0, 0, .55),
         0 0 30px var(--ui-glow);
 
-    transform: scale(1);
+    transform: translateZ(0) scale(1);
 
     transition:
         transform .6s cubic-bezier(.34, 1.56, .64, 1);
 }
 
 .trigger-overlay.fade-out .glass-card {
-    transform: scale(.85);
+    transform: translateZ(0) scale(.85);
 }
 
 
@@ -313,10 +279,7 @@ body {
             transparent 70%
         );
 
-    /*
-     * Menor que el original para reducir coste de pintura.
-     */
-    filter: blur(10px);
+    filter: blur(8px);
 }
 
 
@@ -330,10 +293,11 @@ body {
     font-size: 54px;
 
     filter: drop-shadow(
-        0 4px 10px var(--rose-light-strong)
+        0 4px 8px var(--rose-light-strong)
     );
 
-    animation: pulseIcon 2s ease-in-out infinite;
+    animation:
+        pulseIcon 2s ease-in-out infinite;
 }
 
 @keyframes pulseIcon {
@@ -389,7 +353,10 @@ body {
     width: 100%;
     height: 100%;
 
-    transform: scaleX(0);
+    transform:
+        translateZ(0)
+        scaleX(0);
+
     transform-origin: left center;
 
     background:
@@ -401,16 +368,12 @@ body {
 
     border-radius: 3px;
 
-    /*
-     * La escala se actualiza mediante JS.
-     * No se anima width, evitando layout/reflow.
-     */
     will-change: transform;
 }
 
 
 /* =========================================================
-   STATUS TEXT
+   STATUS
    ========================================================= */
 
 .status-text {
@@ -424,7 +387,7 @@ body {
 
 
 /* =========================================================
-   START BUTTON
+   BUTTON
    ========================================================= */
 
 .start-button {
@@ -438,7 +401,7 @@ body {
     border: 0;
     border-radius: 12px;
 
-    color: var(--accent-text);
+    color: #171500;
 
     background:
         linear-gradient(
@@ -478,7 +441,7 @@ body {
 }
 
 .start-button:not(:disabled):hover {
-    transform: translateY(-2px);
+    transform: translate3d(0, -2px, 0);
 
     box-shadow:
         0 7px 22px var(--button-hover-glow),
@@ -486,7 +449,7 @@ body {
 }
 
 .start-button:active {
-    transform: translateY(1px);
+    transform: translate3d(0, 1px, 0);
 }
 
 
@@ -516,7 +479,8 @@ body {
 }
 
 .start-button:not(:disabled):hover .btn-shine {
-    animation: shine 1.2s ease-in-out infinite;
+    animation:
+        shine 1.2s ease-in-out infinite;
 }
 
 @keyframes shine {
@@ -545,7 +509,8 @@ body {
 
     opacity: 0;
 
-    transform: translate3d(-50%, -50%, 0);
+    transform:
+        translate3d(-50%, -50%, 0);
 
     background:
         radial-gradient(
@@ -555,11 +520,8 @@ body {
             transparent 65%
         );
 
-    transition: opacity 3s ease;
-
-    /*
-     * No se fuerza una capa permanente mientras está invisible.
-     */
+    transition:
+        opacity 3s ease;
 }
 
 .ambient-light.visible {
@@ -586,11 +548,20 @@ body {
 
     overflow: visible;
 
-    perspective: 1200px;
+    /*
+     * Una sola perspectiva para toda la rosa.
+     */
+    perspective: 1400px;
     perspective-origin: 50% 35%;
 
-    transform: scale(.95);
+    transform:
+        translateZ(0)
+        scale(.95);
 
+    /*
+     * Importante:
+     * la escena mantiene el espacio 3D.
+     */
     transform-style: preserve-3d;
     -webkit-transform-style: preserve-3d;
 }
@@ -608,27 +579,38 @@ body {
 
     overflow: visible;
 
+    /*
+     * El wrapper es el único elemento que rota.
+     */
     transform:
+        translateZ(0)
         rotateX(-22deg)
         rotateY(0deg)
         scale(var(--rose-scale));
 
     transform-style: preserve-3d;
     -webkit-transform-style: preserve-3d;
+
+    /*
+     * MUY IMPORTANTE:
+     * evita que el navegador trate el wrapper
+     * como una superficie plana durante la rotación.
+     */
+    backface-visibility: visible;
+    -webkit-backface-visibility: visible;
 }
 
 .rose-wrapper.rotating {
-    /*
-     * Solo se activa cuando realmente comienza la rotación.
-     */
     will-change: transform;
 
-    animation: rotateRose 28s linear infinite;
+    animation:
+        rotateRose 28s linear infinite;
 }
 
 @keyframes rotateRose {
     from {
         transform:
+            translateZ(0)
             rotateX(-22deg)
             rotateY(0deg)
             scale(var(--rose-scale));
@@ -636,6 +618,7 @@ body {
 
     to {
         transform:
+            translateZ(0)
             rotateX(-22deg)
             rotateY(360deg)
             scale(var(--rose-scale));
@@ -657,10 +640,14 @@ body {
 
     overflow: visible;
 
-    transform: translateX(-50%);
+    transform:
+        translate3d(-50%, 0, 0);
 
     transform-style: preserve-3d;
     -webkit-transform-style: preserve-3d;
+
+    backface-visibility: visible;
+    -webkit-backface-visibility: visible;
 }
 
 
@@ -690,7 +677,10 @@ body {
     border-radius: 5px;
 
     transform-origin: center bottom;
-    transform: scaleY(0);
+
+    transform:
+        translateZ(0)
+        scaleY(0);
 
     transition:
         transform 2.2s cubic-bezier(.22, 1, .36, 1);
@@ -699,7 +689,9 @@ body {
 }
 
 .stem.grow {
-    transform: scaleY(1);
+    transform:
+        translateZ(0)
+        scaleY(1);
 }
 
 .stem-highlight {
@@ -735,7 +727,8 @@ body {
 
     opacity: 0;
 
-    transition: opacity .5s ease .4s;
+    transition:
+        opacity .5s ease .4s;
 }
 
 .thorn::before {
@@ -765,7 +758,8 @@ body {
     right: -9px;
     bottom: 65%;
 
-    transform: scaleX(-1);
+    transform:
+        scaleX(-1);
 }
 
 .thorn-2 {
@@ -794,6 +788,12 @@ body {
     transition:
         opacity .6s ease,
         transform 1.1s cubic-bezier(.34, 1.45, .64, 1);
+
+    /*
+     * Las hojas también participan en el espacio 3D.
+     */
+    transform-style: preserve-3d;
+    -webkit-transform-style: preserve-3d;
 }
 
 .leaf::before {
@@ -827,7 +827,8 @@ body {
 
     pointer-events: none;
 
-    background: rgba(150, 255, 180, .12);
+    background:
+        rgba(150, 255, 180, .12);
 }
 
 .leaf-left {
@@ -889,10 +890,14 @@ body {
 
     overflow: visible;
 
-    transform: translateX(-50%);
+    transform:
+        translate3d(-50%, 0, 0);
 
     transform-style: preserve-3d;
     -webkit-transform-style: preserve-3d;
+
+    backface-visibility: visible;
+    -webkit-backface-visibility: visible;
 }
 
 .sepal {
@@ -934,6 +939,14 @@ body {
         rotateX(60deg)
         scale(.5);
 
+    /*
+     * Backface visible.
+     *
+     * No se debe usar hidden aquí.
+     */
+    backface-visibility: visible;
+    -webkit-backface-visibility: visible;
+
     transition:
         transform 1.3s cubic-bezier(.25, 1, .5, 1)
             var(--sepal-delay, 0s),
@@ -967,10 +980,22 @@ body {
 
     overflow: visible;
 
-    transform: translateX(-50%);
+    transform:
+        translate3d(-50%, 0, 0);
 
+    /*
+     * CRÍTICO:
+     * mantener preserve-3d permite que los pétalos
+     * con translateZ conserven su profundidad.
+     */
     transform-style: preserve-3d;
     -webkit-transform-style: preserve-3d;
+
+    /*
+     * No ocultamos caras posteriores.
+     */
+    backface-visibility: visible;
+    -webkit-backface-visibility: visible;
 }
 
 
@@ -988,7 +1013,14 @@ body {
 
     border-radius: 50%;
 
-    transform: translate3d(-50%, -50%, 0);
+    transform:
+        translate3d(-50%, -50%, 0);
+
+    /*
+     * No participan en el cálculo de profundidad
+     * de los pétalos.
+     */
+    transform-style: flat;
 }
 
 .rose-glow {
@@ -1001,13 +1033,14 @@ body {
         radial-gradient(
             circle,
             var(--rose-glow) 0%,
-            rgba(100, 0, 20, .05) 45%,
+            rgba(100, 90, 0, .05) 45%,
             transparent 65%
         );
 
     opacity: 0;
 
-    transition: opacity 3.5s ease;
+    transition:
+        opacity 3.5s ease;
 }
 
 .rose-glow-inner {
@@ -1025,7 +1058,8 @@ body {
 
     opacity: 0;
 
-    transition: opacity 2s ease .8s;
+    transition:
+        opacity 2s ease .8s;
 }
 
 .rose-head.blooming .rose-glow {
@@ -1038,19 +1072,33 @@ body {
 
 
 /* =========================================================
-   PETALS
+   PETALS — 3D STABLE
    ========================================================= */
 
 .petal {
     position: absolute;
+
     bottom: 0;
     left: 50%;
 
+    /*
+     * El punto de giro tiene que permanecer estable.
+     */
     transform-origin: 50% 100%;
 
+    /*
+     * IMPORTANTE:
+     * Los hijos conservan profundidad.
+     */
     transform-style: preserve-3d;
     -webkit-transform-style: preserve-3d;
 
+    /*
+     * NUNCA hidden.
+     *
+     * Si usamos hidden, el pétalo puede desaparecer
+     * cuando su cara pasa a la parte posterior.
+     */
     backface-visibility: visible;
     -webkit-backface-visibility: visible;
 
@@ -1060,30 +1108,59 @@ body {
 
     opacity: .002;
 
+    /*
+     * Estado inicial.
+     */
     transform:
-        translateX(-50%)
+        translate3d(-50%, 0, 0)
         rotateY(var(--angle, 0deg))
         translateZ(0)
         rotateX(90deg)
         scale(.1);
 
+    /*
+     * Durante el bloom animamos solamente transform/opacity.
+     */
     transition:
         transform var(--bloom-dur, 2.4s)
             ease-in-out
             var(--delay, 0s),
         opacity .7s ease
             var(--delay, 0s);
+
+    /*
+     * IMPORTANTE:
+     * No dejamos will-change permanente.
+     * Eso puede provocar demasiadas capas GPU.
+     */
+    isolation: isolate;
 }
 
+
+/*
+ * Estado final del pétalo.
+ */
 .rose-head.blooming .petal {
     opacity: 1;
 
     transform:
-        translateX(-50%)
+        translate3d(-50%, 0, 0)
         rotateY(var(--angle, 0deg))
         translateZ(var(--tz, 0px))
         rotateX(var(--curl, 30deg))
         scale(var(--scale, 1));
+}
+
+
+/*
+ * Durante la rotación preparamos únicamente
+ * los pétalos de la rosa.
+ *
+ * Esto evita promover absolutamente todos los
+ * elementos de la página.
+ */
+.rose-wrapper.rotating .petal {
+    will-change: transform;
 }
 
 
@@ -1202,11 +1279,9 @@ body {
         var(--f-delay, 0s)
         forwards;
 
-    /*
-     * Los pétalos se mueven continuamente mediante transform.
-     * Aquí sí tiene sentido preparar la composición.
-     */
-    will-change: transform, opacity;
+    will-change:
+        transform,
+        opacity;
 }
 
 @keyframes fallSway {
@@ -1294,9 +1369,11 @@ body {
 
     opacity: 0;
 
-    transform: translate3d(-50%, 0, 0);
+    transform:
+        translate3d(-50%, 0, 0);
 
-    transition: opacity 2s ease;
+    transition:
+        opacity 2s ease;
 }
 
 .end-text.visible {
@@ -1353,11 +1430,8 @@ body {
         letter-spacing: 2px;
     }
 
-    /*
-     * Un poco menos de efectos pesados en móvil.
-     */
     .spotlight {
-        filter: blur(20px);
+        filter: blur(15px);
     }
 }
 
@@ -1382,11 +1456,17 @@ body {
     *::after {
         animation-duration: .001ms !important;
         animation-iteration-count: 1 !important;
+
         transition-duration: .001ms !important;
+
         scroll-behavior: auto !important;
     }
 
     .loading-bar {
+        will-change: auto;
+    }
+
+    .rose-wrapper.rotating .petal {
         will-change: auto;
     }
 }
