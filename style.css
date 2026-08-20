@@ -43,79 +43,79 @@ body {
    ========================================================= */
 
 :root {
-    --rose-100: #ffe600;
-    --rose-90: #d4bd00;
-    --rose-80: #b8a400;
-    --rose-70: #9b8a00;
-    --rose-60: #807200;
-    --rose-50: #665b00;
-    --rose-40: #4d4400;
-    --rose-30: #393200;
-    --rose-20: #282300;
-    --rose-10: #100e00;
+    --rose-100: #ffd1e1;
+    --rose-90: #f5a9c4;
+    --rose-80: #ed82a8;
+    --rose-70: #e45b8c;
+    --rose-60: #d93670;
+    --rose-50: #c51f5c;
+    --rose-40: #a9184f;
+    --rose-30: #86143f;
+    --rose-20: #61102e;
+    --rose-10: #320817;
 
-    --rose-glow: rgba(190, 170, 0, 0.18);
-    --rose-glow-inner: rgba(220, 205, 40, 0.15);
+    --rose-glow: rgba(236, 72, 135, 0.18);
+    --rose-glow-inner: rgba(255, 137, 180, 0.15);
 
-    --rose-light: rgba(255, 230, 30, 0.10);
-    --rose-light-soft: rgba(255, 220, 30, 0.06);
-    --rose-light-strong: rgba(255, 235, 90, 0.30);
+    --rose-light: rgba(255, 105, 165, 0.10);
+    --rose-light-soft: rgba(255, 120, 175, 0.06);
+    --rose-light-strong: rgba(255, 170, 205, 0.30);
 
-    --accent-1: #ffe600;
-    --accent-2: #fff06a;
-    --accent-3: #ffe600;
+    --accent-1: #f25591;
+    --accent-2: #ffc1d7;
+    --accent-3: #ec4887;
     --accent-text: #ffffff;
 
-    --ui-border: rgba(255, 230, 40, 0.20);
-    --ui-glow: rgba(255, 220, 30, 0.10);
-    --ui-shadow: rgba(255, 230, 0, 0.30);
+    --ui-border: rgba(255, 120, 175, 0.20);
+    --ui-glow: rgba(255, 105, 165, 0.10);
+    --ui-shadow: rgba(236, 72, 135, 0.30);
 
     --bg-dark: #020002;
-    --bg-mid: #050500;
-    --bg-glow: #121201;
+    --bg-mid: #080306;
+    --bg-glow: #1c0710;
     --overlay: rgba(0, 0, 0, 0.85);
 
     --text-primary: #ffffff;
     --text-secondary: #b5a2b0;
-    --text-highlight: rgba(255, 245, 180, 0.95);
+    --text-highlight: rgba(255, 190, 215, 0.95);
 
-    --button-hover-glow: rgba(255, 230, 0, 0.50);
-    --button-hover-soft: rgba(255, 235, 90, 0.30);
+    --button-hover-glow: rgba(255, 105, 165, 0.50);
+    --button-hover-soft: rgba(255, 170, 205, 0.30);
 
-    --petal-bud-1: #393200;
-    --petal-bud-2: #242000;
-    --petal-bud-3: #100e00;
-    --petal-bud-4: #040000;
+    --petal-bud-1: #86143f;
+    --petal-bud-2: #61102e;
+    --petal-bud-3: #320817;
+    --petal-bud-4: #16030a;
 
-    --petal-core-1: #4d4400;
-    --petal-core-2: #353000;
-    --petal-core-3: #1a1800;
-    --petal-core-4: #080700;
+    --petal-core-1: #a9184f;
+    --petal-core-2: #781139;
+    --petal-core-3: #430a20;
+    --petal-core-4: #21040d;
 
-    --petal-inner-1: #665b00;
-    --petal-inner-2: #484000;
-    --petal-inner-3: #252100;
-    --petal-inner-4: #0c0b00;
+    --petal-inner-1: #c51f5c;
+    --petal-inner-2: #921643;
+    --petal-inner-3: #55102a;
+    --petal-inner-4: #2a0612;
 
-    --petal-mid-inner-1: #807200;
-    --petal-mid-inner-2: #5c5100;
-    --petal-mid-inner-3: #312b00;
-    --petal-mid-inner-4: #121000;
+    --petal-mid-inner-1: #d93670;
+    --petal-mid-inner-2: #aa1c51;
+    --petal-mid-inner-3: #67102f;
+    --petal-mid-inner-4: #350817;
 
-    --petal-mid-1: #9b8a00;
-    --petal-mid-2: #6e6200;
-    --petal-mid-3: #3b3400;
-    --petal-mid-4: #161300;
+    --petal-mid-1: #e45b8c;
+    --petal-mid-2: #bd2d62;
+    --petal-mid-3: #79163a;
+    --petal-mid-4: #3e0a1b;
 
-    --petal-outer-1: #b8a400;
-    --petal-outer-2: #7e7000;
-    --petal-outer-3: #443c00;
-    --petal-outer-4: #1a1700;
+    --petal-outer-1: #ed82a8;
+    --petal-outer-2: #d34a7a;
+    --petal-outer-3: #8d1c46;
+    --petal-outer-4: #480b20;
 
-    --petal-blush-1: #d4bd00;
-    --petal-blush-2: #8e7e00;
-    --petal-blush-3: #4e4500;
-    --petal-blush-4: #1e1a00;
+    --petal-blush-1: #f5a9c4;
+    --petal-blush-2: #df5f8e;
+    --petal-blush-3: #9f2350;
+    --petal-blush-4: #510d24;
 
     --rose-scale: 1;
 }
@@ -192,12 +192,7 @@ body {
 
     background: var(--overlay);
 
-    /*
-     * Evitamos backdrop-filter durante la escena.
-     * Es uno de los mayores consumidores de GPU.
-     */
-    backdrop-filter: blur(6px);
-    -webkit-backdrop-filter: blur(6px);
+    will-change: opacity;
 
     opacity: 1;
     visibility: visible;
@@ -236,7 +231,7 @@ body {
 
     text-align: center;
 
-    background: rgba(22, 22, 10, .68);
+    background: rgba(32, 8, 18, .68);
 
     border: 1px solid var(--ui-border);
     border-radius: 24px;
@@ -401,7 +396,7 @@ body {
     border: 0;
     border-radius: 12px;
 
-    color: #171500;
+    color: #320817;
 
     background:
         linear-gradient(
@@ -1033,7 +1028,7 @@ body {
         radial-gradient(
             circle,
             var(--rose-glow) 0%,
-            rgba(100, 90, 0, .05) 45%,
+            rgba(190, 35, 95, .05) 45%,
             transparent 65%
         );
 
@@ -1129,11 +1124,8 @@ body {
             var(--delay, 0s);
 
     /*
-     * IMPORTANTE:
-     * No dejamos will-change permanente.
-     * Eso puede provocar demasiadas capas GPU.
+     * No dejamos will-change permanente para evitar demasiadas capas GPU.
      */
-    isolation: isolate;
 }
 
 
@@ -1149,18 +1141,6 @@ body {
         translateZ(var(--tz, 0px))
         rotateX(var(--curl, 30deg))
         scale(var(--scale, 1));
-}
-
-
-/*
- * Durante la rotación preparamos únicamente
- * los pétalos de la rosa.
- *
- * Esto evita promover absolutamente todos los
- * elementos de la página.
- */
-.rose-wrapper.rotating .petal {
-    will-change: transform;
 }
 
 
@@ -1466,7 +1446,4 @@ body {
         will-change: auto;
     }
 
-    .rose-wrapper.rotating .petal {
-        will-change: auto;
-    }
 }
